@@ -53,7 +53,7 @@
 #lista2020 li:first-child {
 	margin-top: 0px;
 }
-#lista2020 a:active {
+#lista2020 a:hover {
 	background-color: white;
 	border: 1px solid white;
 	transition: 0.4s;
@@ -74,7 +74,7 @@
 #año li {
 	list-style: none;
 }
-#año a:active {
+#año a:hover {
 	background-color: white;
 	border: 1px solid white;
 	transition: 0.4s;
