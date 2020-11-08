@@ -90,3 +90,100 @@ body {
 	background-position: 0px;
 	background-size: cover;
 }
+
+/*----------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+	*{
+		margin: 0px;
+		padding: 0px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	#año {
+		/* border: 1px solid blue; */
+		width: 150px;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	#año li {
+		margin-top: 30px;
+	}
+	.año li {
+		text-align: center;
+	}
+	.lista2020 {
+		display: none;
+	}
+	#lista2020 {
+		position: absolute;
+		margin-left: 150px;
+		margin-top: -56px;
+		/* border: 1px solid red; */
+		padding: 0px;
+	}
+	#año li{
+		/* border: 1px solid green; */
+		width: ;
+	}
+	.A2020 {
+		width: 151px;
+	}
+	#lista2020 ul li a{
+		text-decoration: none;
+		margin-left: 50px;
+		font-size: 3em;
+		color: rgb(238, 82, 82);
+		text-shadow: 0px 0px 5px black;
+		border: 1px solid rgb(238, 82, 82);
+		padding: 10px;
+		border-radius: 15px;
+		transition: 0.4s;
+	}
+	#lista2020 li {
+		list-style: none;
+		text-align: left;
+		margin-top: 30px;
+	}
+	#lista2020 li:first-child {
+		margin-top: 0px;
+	}
+	#lista2020 a:active {
+		background-color: white;
+		border: 1px solid white;
+		transition: 0.4s;
+		color: rgb(90, 33, 247);
+	}
+	#año a{
+		text-decoration: none;
+		font-size: 3em;
+		color: rgb(238, 82, 82);
+		text-shadow: 0px 0px 5px black;
+		border: 1px solid rgb(238, 82, 82);
+		padding: 10px;
+		border-radius: 15px;
+		transition: 0.4s;
+		width: 150px;
+		text-align: center;
+	}
+	#año li {
+		list-style: none;
+	}
+	#año a:active {
+		background-color: white;
+		border: 1px solid white;
+		transition: 0.4s;
+		color: rgb(90, 33, 247);
+	}
+	.links ul li:hover .lista2020 {
+		display: block;
+		position: absolute;
+	}
+	body {
+		background-image: url("../img/background.jpg");
+		background-attachment: fixed;
+		background-position: 0px;
+		background-size: cover;
+	}
+}
